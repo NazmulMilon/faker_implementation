@@ -1,0 +1,29 @@
+
+# ignore specific file
+.env
+
+# ignore specific directory
+/logs
+
+
+#ignoring file extention type
+*.psd
+*.log
+
+#ignoring specific file path
+important/superimportant/top.secret
+important
+
+#adding an extension
+!important.log
+
+
+
+# ignoring all logs folders
+**/logs
+
+# ignoring all bin folders
+**/bin
+
+# ignoring all directories containing test
+**/*test
