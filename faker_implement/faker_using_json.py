@@ -21,6 +21,7 @@ def input_data(n):
         student_dict[i]['longitude'] = str(fake.longitude())
     print(student_dict)
 
+    # print using json file
     with open('st_json', 'w') as fp:
         json.dump(student_dict, fp)
 

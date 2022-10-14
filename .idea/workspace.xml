@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7033d28-4009-4d86-b027-ab23990df5b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/faker_implement/API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faker_implement/faker_using_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/faker_implement/faker_using_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faker_implement/simple_faker_prog.py" beforeDir="false" afterPath="$PROJECT_DIR$/faker_implement/simple_faker_prog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;last_opened_file_path&quot;: &quot;/home/uzzal/milon/faker_implementation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.faker_using_json">
+  <component name="RunManager" selected="Python.simple_faker_prog">
     <configuration name="dictionary_to_list_convert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="faker_implementation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,28 +53,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faker_implement/dictionary_to_list_convert.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="faker_bd_name&amp;profile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="faker_implementation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/faker_implement" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faker_implement/faker_bd_name&amp;profile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,13 +127,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="simple_faker_prog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="faker_implementation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/faker_implement" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faker_implement/simple_faker_prog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.simple_faker_prog" />
         <item itemvalue="Python.faker_using_json" />
         <item itemvalue="Python.dictionary_to_list_convert" />
         <item itemvalue="Python.seeding_generator_faker" />
         <item itemvalue="Python.print_data_from_list" />
-        <item itemvalue="Python.faker_bd_name&amp;profile" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665638257572</updated>
       <workItem from="1665638258831" duration="11112000" />
-      <workItem from="1665712758013" duration="4418000" />
+      <workItem from="1665712758013" duration="5353000" />
     </task>
     <servers />
   </component>
@@ -194,6 +194,6 @@
     <SUITE FILE_PATH="coverage/faker_implementation$faker_bd_name_profile.coverage" NAME="faker_bd_name&amp;profile Coverage Results" MODIFIED="1665648476931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faker_implement" />
     <SUITE FILE_PATH="coverage/faker_implementation$print_data_from_list.coverage" NAME="print_data_from_list Coverage Results" MODIFIED="1665649745323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faker_implement" />
     <SUITE FILE_PATH="coverage/faker_implementation$dictionary_to_list_convert.coverage" NAME="dictionary_to_list_convert Coverage Results" MODIFIED="1665716504103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faker_implement" />
-    <SUITE FILE_PATH="coverage/faker_implementation$simple_faker_prog.coverage" NAME="simple_faker_prog Coverage Results" MODIFIED="1665642584629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faker_implementation$simple_faker_prog.coverage" NAME="simple_faker_prog Coverage Results" MODIFIED="1665718905356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faker_implement" />
   </component>
 </project>
